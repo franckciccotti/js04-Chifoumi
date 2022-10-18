@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+  }
+  
+  .resultat {
+    border: solid black 1px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+  }
